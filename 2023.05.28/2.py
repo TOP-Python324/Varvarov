@@ -1,7 +1,7 @@
 numb, numb1 = int(input()), int(input())
 
 print(f'{numb} делится на {numb1} нацело \n'
-          f'частное: {numb // numb1}\n')
+      f'частное: {numb // numb1}\n')
 
 
 # 44
@@ -12,8 +12,8 @@ print(f'{numb} делится на {numb1} нацело \n'
 num, num1 = int(input()), int(input())
 
 print(f'{num} не делиться на {num1} нацело \n'
-        f'неполное частное: {num // num1} \n'
-         f'остаток: {num % num1}')
+      f'неполное частное: {num // num1} \n'
+      f'остаток: {num % num1}')
          
 
 # 49
@@ -21,3 +21,5 @@ print(f'{num} не делиться на {num1} нацело \n'
 # 49 не делиться на 5 нацело
 # неполное частное: 9
 # остаток: 4
+
+
