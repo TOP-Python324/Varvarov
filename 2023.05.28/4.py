@@ -2,6 +2,9 @@
 digit = input()
 digit1 = input()
 
+verticals = 'abcdefgh'
+# a b c d e f g h
+
 # ОТВЕТИТЬ: как именно данное условное выражение помогает ответить на поставленный в задаче вопрос?
 if (ord(digit[0]) + int(digit[1])) % 2 == (ord(digit1[0]) + int(digit1[1])) % 2:
     print('ДА')
