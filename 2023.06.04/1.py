@@ -5,7 +5,8 @@ while True:
     if numb % 7 != 0:
         break
 print()
-print(*numbers_list[ -2: : -1])
+print(*numbers_list[-2::-1])
+
 
 # 7
 # 14
@@ -19,3 +20,5 @@ print(*numbers_list[ -2: : -1])
 # 5
 
 # 63 56 49 42 35 28 21 14 7
+
+

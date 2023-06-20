@@ -8,6 +8,7 @@ for numb in range(n):
 print()
 print(numbers_sum)
 
+
 # 5
 # 15
 # -4
@@ -16,3 +17,5 @@ print(numbers_sum)
 # 21
 
 # 43
+
+
