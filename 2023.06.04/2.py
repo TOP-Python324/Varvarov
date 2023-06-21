@@ -1,7 +1,8 @@
 n = int(input())
 numbers_sum = 0
 
-for numb in range(n):
+# ИСПОЛЬЗОВАТЬ: если переменная цикла не используется в теле цикла, то вместо неё пишем _
+for _ in range(n):
     numbers = int(input())
     if numbers > 0:
         numbers_sum += numbers
@@ -19,3 +20,4 @@ print(numbers_sum)
 # 43
 
 
+# ИТОГ: отлично — 3/3
